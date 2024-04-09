@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-family: monospace;
+}
+
+nav {
+  background-color: gray;
+  height: 50px;
+  width: 100;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 20px;
+  margin: 20px 70px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 30px;
+}
+nav ul li a:hover {
+  background-color: aqua ;
+  border-radius: 5px;
+}
+
+.logo {
+  float: left;
+  background-color: white;
+  padding: 0px 2px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.center {
+  height: 800px;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.8),
+      rgba(0, 0, 0, 0)
+    ),
+    url(./Image/holi.jpg);
+}
+.center h1 {
+  width: 100%;
+  padding: 193px 0 0px 80px;
+  font-size: 85px;
+}
+.hed
+{
+  width: 50%;
+
+position: relative;
+
+}
+.hed .btn
+{
+  /* border: 1px solid red; */
+  position: absolute;
+  right: 50%;
+  bottom: -61px;
+
+}
+.btn {
+  background-color: rgb(229, 185, 216);
+  padding:19px 20px;
+  border: none;
+  border-radius: 8px;
+}
+.btn:hover
+{
+background-color: aqua;
+}
+
+/* mid selection */
+
+.mid 
+{
+  background-color: rgb(176, 179, 178);
+  justify-content: space-around;
+  display: flex;
+  /* flex-direction: column; */
+}
+.mid img
+{
+overflow:  hidden;
+height: 600px;
+width: fit-content;
+/* width:  400px; */
+padding:  5px 10px;
+}
+.mid .content
+{
+  
+  display: flex;
+  flex-direction: column;
+}
+  .mid h3
+   {
+    flex-direction: column;
+}
+.mid h4 {
+  flex-direction: column;
+}
+
+.mid2 
+{
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.mid-2{
+  
+  justify-content: space-evenly;
+}
+
+.mid2 img
+{
+    align-items: center;
+}
+
+
+/* footer  */
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.images-section {
+  background-color: rgb(35, 47, 62);
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: aliceblue;
+}
+.images-section img {
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: gray;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+footer a {
+  color: aliceblue;
+}
+footer social-icons img {
+  color: white;
+}
+.footer-img {
+  width: 20%;
+}
+.footer-img img {
+  display: block;
+  margin: 0 auto;
+}
+.w-80 {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.w-25 {
+  width: 25%;
+}
+.top {
+  background-color: rgb(35, 66, 166);
+  width: 100%;
+  padding: 5px 443px;
+  border: none;
+}
+.top:hover
+{
+background-color: gray;
+}
+.top a 
+{
+ 
+ color: white;
+ border-radius: 4px;
+}
