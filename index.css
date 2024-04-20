@@ -35,7 +35,7 @@ ul li a {
 }
 ul li a:hover {
   color: black;
-  background-color: aquamarine;
+  background-color: rgb(48, 187, 141);
   border-radius: 10px;
 }
 
@@ -93,11 +93,27 @@ input {
   /* flex-direction: column; */
 }
 .mid img {
+  
   overflow: hidden;
   height: 600px;
   width: fit-content;
   /* width:  400px; */
   padding: 5px 10px;
+}
+
+.card
+{
+  background-color: rgb(196, 144, 32);
+}
+.card img{
+  
+  /* border: 1px solid red; */
+  border-radius: 200px;
+}
+
+.content{
+
+  text-align: center;
 }
 .mid .content {
   display: flex;
@@ -184,4 +200,6 @@ footer social-icons img {
 .top a {
   color: white;
   border-radius: 4px;
+  border: none;
+  text-decoration: none;
 }

@@ -55,7 +55,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 24px 0px;
-  /* border: 1px solid red; */
 }
 
 .remember label input {
